@@ -51,6 +51,9 @@ body {
     padding: 30px 150px 30px 150px;
   }
 
+  .social-links a {
+    color: var(--very-dark-blue);
+  }
  
   .menus {
   display: flex;
@@ -106,13 +109,17 @@ body {
   }
 
   .form-get-started {
-    padding-top: 20px;
+    padding-top: 10px;
+  }
+
+  .form-get-started label {
+    color: #fff;
   }
 
   .form-get-started input {
     margin-right: 15px;
-    width: 300px;
-    height: 40px;
+    width: 320px;
+    height: 45px;
     align-items: center;
     justify-content: center;
     padding-left: 10px;
@@ -124,8 +131,8 @@ body {
 
 
   .form-get-started button {
-    height: 40px;
-    width: 175px;  
+    height: 45px;
+    width: 185px;  
     background-color: var(--bright-blue);
     border: 1px solid var(--bright-blue);
     border-radius: 3px;
@@ -317,6 +324,10 @@ body {
 
   .newsletter-container-right {
     margin-left: 150px;
+  }
+
+  .newsletter-container-right label {
+    color: var(--desaturated-blue);
   }
 
   .newsletter-container-right input {
